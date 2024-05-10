@@ -46,9 +46,9 @@
 // | SHFT | `   |  ~  |  [  |  ]  |     |   |  0  |  1  |  2  |  3  | \  |      |
 //                    |     | CMD | SPC |   | ENTER |     |     |
                         bindings = <
-   &kp  TAB  &trans &trans &kp LPAR &kp RPAR &kp UNDER   &kp MINUS &kp 7  &kp 8 &kp 9 &trans &kp BSPC
-   &trans &trans   &kp PIPE &kp LBRC   &kp RBRC   &kp EQUAL      &kp PLUS &kp 4 &kp 5  &kp 6 &trans &trans
-   &kp LSHIFT &kp GRAVE  &kp TILDE &kp LBKT   &kp RBKT   &trans      &kp 0 &kp 1  &kp 2  &kp 3 &kp BSLH &trans
+   &kp  TAB  &trans &trans &kp LPAR &kp RPAR &kp UNDER   &kp MINUS &kp KP_NUMBER_7  &kp KP_NUMBER_8 &kp KP_NUMBER_9 &trans &kp BSPC
+   &trans &trans   &kp PIPE &kp LBRC   &kp RBRC   &kp EQUAL      &kp PLUS &kp KP_NUMBER_4 &kp KP_NUMBER_5  &kp KP_NUMBER_6 &trans &trans
+   &kp LSHIFT &kp GRAVE  &kp TILDE &kp LBKT   &kp RBKT   &trans      &kp KP_NUMBER_0 &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3 &kp BSLH &trans
                              &trans &kp LGUI   &kp SPACE   &kp ENTER   &trans    &trans
                         >;
                 };
