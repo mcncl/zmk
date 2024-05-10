@@ -17,7 +17,7 @@
 // | ESC  |  Q  |  W  |  F  |  P  |  G  |   |  J  |  L   |  U  |  Y  |  ;  | BKSP |
 // | TAB |  A  |  R  |  S  |  T  |  D  |   |  H  |  N   |  E  |  I  | O  |  '  |
 // | SHIFT |  Z  |  X  |  C  |  V  |  B  |   |  K  |  M   |  ,  |  .  |  /  | SHIFT  |
-//                    | CTRL | LWR | SPC |   | ENT | CMD  | ALT |
+//                    | CTRL | LWR | SPC |   | ENTER | CMD  | ALT |
                         bindings = <
    &kp ESC   &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U   &kp Y   &kp SEMI    &kp BSPC
    &kp TAB &kp A &kp R &kp S &kp T &kp D   &kp H &kp N  &kp E  &kp E  &kp I &kp SQT
@@ -30,12 +30,12 @@
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  ;  |  :  | BKSP |
 // | BTCLR| BT1 | BT2 | BT3 | BT4 |     |   |LEFT |DOWN |  UP |RIGHT|  '  |      |
 // | SHFT |     |     |     |     |     |   |     |     |     |     |  "  |      |
-//                    |     | CMD | SPC |   | ENT |RAISE|     |
+//                    |     | CMD | SPC |   | ENTER |RAISE|     |
                         bindings = <
    &kp TAB    &kp EXCL       &kp AT       &kp HASH       &kp DLLR       &kp PRCNT         &kp CARET   &kp AMPS   &kp ASTRK &kp SEMI    &kp COLON &kp BSPC
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3    &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp SQT
    &kp LSHIFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &kp DQT
-                                    &trans     &trans       &trans      &kp ENT  &mo 2   &trans
+                                    &trans  &trans  &trans  &kp ENTER &mo 2  &trans
                         >;
                 };
 
@@ -44,7 +44,7 @@
 // |  TAB |     |     |  (  |  )  |  _  |   |  -  |  7  |  8  |  9  |    | BKSP |
 // |      |     |  |  | {   |  }  |  =  |   |  +  |  4  |  5  |  6  |    |      |
 // | SHFT | `   |  ~  |  [  |  ]  |     |   |  0  |  1  |  2  |  3  | \  |      |
-//                    |     | CMD | SPC |   | ENT |     |     |
+//                    |     | CMD | SPC |   | ENTER |     |     |
                         bindings = <
    &kp  TAB  &trans &trans &kp LPAR &kp RPAR &kp UNDER   &kp MINUS &kp 7  &kp 8 &kp 9 &trans &kp BSPC
    &trans &trans   &kp PIPE &kp LBRC   &kp RBRC   &kp EQUAL      &kp PLUS &kp 4 &kp 5  &kp 6 &trans &trans
