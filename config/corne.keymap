@@ -22,7 +22,7 @@
    &kp ESC   &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U   &kp Y   &kp SEMI    &kp BSPC
    &kp TAB &kp A &kp R &kp S &kp T &kp D   &kp H &kp N  &kp E  &kp I  &kp O &trans
    &kp LSHIFT &kp Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHIFT
-                &kp LGUI &mo 1 &kp SPACE   &kp SPACE &mo 2 &kp LCTRL
+                &kp LGUI &kp SPACE   &kp SPACE &mo 2 &kp LCTRL
                         >;
                 };
                 lower_layer {
@@ -49,7 +49,7 @@
    &kp  TAB  &trans &trans &kp LPAR &kp RPAR &kp UNDER   &kp MINUS &kp KP_NUMBER_7  &kp KP_NUMBER_8 &kp KP_NUMBER_9 &trans &kp BSPC
    &trans &trans   &kp PIPE &kp LBRC   &kp RBRC   &kp EQUAL      &kp PLUS &kp KP_NUMBER_4 &kp KP_NUMBER_5  &kp KP_NUMBER_6 &trans &kp ENTER
    &kp LSHIFT &kp GRAVE  &kp TILDE &kp LBKT   &kp RBKT   &trans      &kp KP_NUMBER_0 &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3 &kp BSLH &trans
-                             &trans &kp LGUI   &kp SPACE   &kpR   &trans    &trans
+                             &trans &kp LGUI   &kp SPACE   &kp ENTER   &trans    &trans
                         >;
                 };
         };
