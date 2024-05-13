@@ -17,12 +17,12 @@
 // | ESC  |  Q  |  W  |  F  |  P  |  G  |   |  J  |  L   |  U  |  Y  |  ;  | BKSP |
 // | TAB |  A  |  R  |  S  |  T  |  D  |   |  H  |  N   |  E  |  I  | O  |  '  |
 // | SHIFT |  Z  |  X  |  C  |  V  |  B  |   |  K  |  M   |  ,  |  .  |  /  | SHIFT  |
-//                    | LWR | CMD | SPC |   | ENTER | CMD  | ALT |
+//                    | LWR | CMD | SPC |   | SPACE | CMD  | ALT |
                         bindings = <
    &kp ESC   &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U   &kp Y   &kp SEMI    &kp BSPC
    &kp TAB &kp A &kp R &kp S &kp T &kp D   &kp H &kp N  &kp E  &kp I  &kp O &trans
    &kp LSHIFT &kp Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHIFT
-                 &mo 1 &kp LGUI &kp SPACE   &kp RSHIFT &mo 2 &kp LCTRL
+                 &mo 1 &kp LGUI &kp SPACE   &kp SPACE &mo 2 &kp LCTRL
                         >;
                 };
                 lower_layer {
@@ -42,14 +42,14 @@
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |     |     |  (  |  )  |  _  |   |  -  |  7  |  8  |  9  |    | BKSP |
-// |      |     |  |  | {   |  }  |  =  |   |  +  |  4  |  5  |  6  |    |      |
+// |      |     |  |  | {   |  }  |  =  |   |  +  |  4  |  5  |  6  |    | ENT  |
 // | SHFT | `   |  ~  |  [  |  ]  |     |   |  0  |  1  |  2  |  3  | \  |      |
 //                    |     | CMD | SPC |   | ENTER |     |     |
                         bindings = <
    &kp  TAB  &trans &trans &kp LPAR &kp RPAR &kp UNDER   &kp MINUS &kp KP_NUMBER_7  &kp KP_NUMBER_8 &kp KP_NUMBER_9 &trans &kp BSPC
-   &trans &trans   &kp PIPE &kp LBRC   &kp RBRC   &kp EQUAL      &kp PLUS &kp KP_NUMBER_4 &kp KP_NUMBER_5  &kp KP_NUMBER_6 &trans &trans
+   &trans &trans   &kp PIPE &kp LBRC   &kp RBRC   &kp EQUAL      &kp PLUS &kp KP_NUMBER_4 &kp KP_NUMBER_5  &kp KP_NUMBER_6 &trans &kp ENTER
    &kp LSHIFT &kp GRAVE  &kp TILDE &kp LBKT   &kp RBKT   &trans      &kp KP_NUMBER_0 &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3 &kp BSLH &trans
-                             &trans &kp LGUI   &kp SPACE   &kp ENTER   &trans    &trans
+                             &trans &kp LGUI   &kp SPACE   &trans   &trans    &trans
                         >;
                 };
         };
